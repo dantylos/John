@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'heebomedium';
+    src: url('../fonts/heebo-medium-webfont.eot');
+    src: url('../fonts/heebo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/heebo-medium-webfont.woff2') format('woff2'),
+         url('../fonts/heebo-medium-webfont.woff') format('woff'),
+         url('../fonts/heebo-medium-webfont.ttf') format('truetype'),
+         url('../fonts/heebo-medium-webfont.svg#heebomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{padding-top: 27px;}
+
+.container{
+    max-width: 1032px;
+    margin: auto; 
+    }
+
+.d_flex{
+    display: flex;
+}
+    
+.justify_end{
+    justify-content: flex-end;
+}
+    
+.justify_between{
+    justify-content: space-between;
+}
+    
+.align_start{
+    align-items: flex-start;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none
+}
+
+header nav ul li{
+    margin-left: 33px;
+    transition: 0.5s;
+}
+
+header nav ul a{
+    font-family: 'heebomedium';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main_banner{
+    padding-top: 140px; 
+    padding-bottom: 71px; 
+}
+
+.main_banner .container{
+    max-width: 855px;
+}
+
+.d_flex.justify_between.align_start{
+    background-color: #FF6464;
+}
+
+header nav ul li:hover{
+    transform: rotate(360deg);
+}
+
+.heading{
+    font-family: 'heebomedium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+
+.text{
+    max-width: 498px; 
+    font-family: 'heebomedium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 38px;
+}
+
+.resume{
+    background: #FF6464;
+    border-radius: 2px; 
+    text-decoration: none; 
+    padding: 13px 20px 13px 20px; 
+    font-family: 'heebomedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.pic{
+    max-width: 243px;
+    max-height: 243px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.wrapper{
+    max-width: 940px; 
+    max-height: 500px; 
+    padding: 50px 0px 20px 0px; 
+    background: #000000;
+}
+
+.form{
+    margin: auto; 
+    max-width: 564px; 
+}
+
+.user .mail .number .desc  {
+    display: none;
+}
+
+#name{
+    width: 100%; 
+    padding: 18px 31px; 
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 0px; 
+    font-family: 'Vollkorn';
+    border: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#email{
+    width: 100%; 
+    padding: 18px 31px; 
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    border: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#budget{
+    width: 100%; 
+    padding: 18px 31px; 
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 0px; 
+    font-family: 'Vollkorn';
+    border: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#project{
+    width: 100%; 
+    height: 150px; 
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px; 
+    font-family: 'Vollkorn';
+    border: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF; 
+    padding: 17px 31px 88px 31px; 
+    resize: none;
+}
+
+.massage{
+    text-align: center; 
+    margin-top: 15px;
+}
+
+.button{
+    border: solid  #7EC4BD 1.5px; 
+    padding: 10px 30px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8BCAC3;
+    background-color: #000000;
+}
+
+.wrap{
+    max-width: 222px; 
+    margin: auto; 
+    justify-content: space-between; 
+    align-items: flex-start
+}
+
+footer div ul{
+    display: flex; 
+    list-style: none;
+}
+
+footer div ul li{
+    margin: 0 17px; 
+}
+
+footer div p{
+    font-family: 'heebomedium', sans-serif;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 21px;
+    Line-height: 100%;
+    Vertical-align: Top; 
+    margin-top: 12px;
+    }
