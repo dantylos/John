@@ -107,6 +107,10 @@ header nav ul a{
     text-decoration: none;
 }
 
+header nav ul a:visited{
+    color:#FF6464;
+}
+
 .main_banner{
     padding-top: 140px; 
     padding-bottom: 71px; 
